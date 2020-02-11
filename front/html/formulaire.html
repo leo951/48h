@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../48h/css/style.css">
+    <title>Index</title>
+</head>
+<body>
+    <section class="header-back">
+        <div>
+
+        </div>
+    </section>
+    <section>
+        <form class="formulaire-form">
+            <h3 class="form-title"><center>INFORMATION ORDONNANCE</center></h3>
+            <div class="form-group">
+                <label>NOM *</label>
+                <input type="text" id="nom" name="firstname"  value="blablablu" required>
+            </div>
+            <div class="form-group">
+                <label>PRENOM *</label>
+                <input type="text" id="prenom" name="lastname" required>
+            </div>
+            <div class="form-group">
+                <label>NUMERO D’IDENTIFICATION</label>
+                <input type="text" id="rpps" name="id_medecin" required>
+            </div>
+            <div class="form-group">
+                <label>MAIL</label>
+                <input type="email" id="email" name="email" id="email">
+            </div>
+            <div class="form-group">
+                <label>NUMERO DE TELLEPHONE</label>
+                <input  type="text" id="tel" name="tel" >
+            </div>
+            <div class="form-group">
+                <label>CONTENU DE L'ORDONNANCE *</label>
+                <input classe="champ" id="ordo" type="text" name="ordonnance" required>
+            </div>
+            <div class="form-group">
+               <button type="submit" id="texte1" value="envoyer" onclick="formulaire.js"><a href="ordonnance.html">ordonnance</a></button>
+            </div>
+        </form>
+    </section>
+    <script src="../script/formulaire.js"></script>
+</body>
+</html>
